@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View</title>
+</head>
+<body>
+<script src="viewReview.js" defer></script>
+
+<style>
+    #productList {
+        width: 300px;
+    }
+    #reviewsContainer {
+        border: solid 1px black;
+        width: 500px;
+    }
+    li:hover {
+        cursor: pointer;
+        background-color: aquamarine;
+    }
+</style>
+
+<a href="addReview.html">Оставить отзыв</a>
+<a href="viewReview.html">Посмотреть отзывы</a>
+
+<div id="viewReviewsPage">
+    <h2>Просмотр отзывов</h2>
+    <ul id="productList"></ul>
+    <div id="reviewsContainer"></div>
+</div>
+
+</body>
+</html>
